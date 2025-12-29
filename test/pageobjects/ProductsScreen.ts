@@ -2,7 +2,7 @@ class ProductsScreen {
 
   get addToCartBtn() {
   if (driver.isAndroid) {
-    return $('//*[@content-desc="test-ADD TO CART"]')
+    return $('//*[@text="ADD TO CART"]')
   }
   return $('~ADD TO CART'); 
   // or $('-ios predicate string:name == "ADD TO CART"');
