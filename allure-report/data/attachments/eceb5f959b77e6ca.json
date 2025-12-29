@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "new UiSelector().className(\"android.widget.ImageView\").instance(3)"
+}

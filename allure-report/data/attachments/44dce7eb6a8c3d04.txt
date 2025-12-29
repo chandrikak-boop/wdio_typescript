@@ -1,0 +1,1 @@
+unknown command: WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running "element/00000000-0000-0177-ffff-ffff000000c6/property/value" with method "GET"

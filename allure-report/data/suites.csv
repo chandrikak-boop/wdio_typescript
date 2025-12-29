@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5","should login with valid credentials","My Login application","2025-12-24","passed","2025-12-24","","","",""
+"","19754","products shopping","Swag Labs E2E","2025-12-24","passed","2025-12-24","","","",""
+"","17963","should complete purchase successfully","Swag Labs E2E - No Base Screen","2025-12-24","passed","2025-12-24","","","",""
