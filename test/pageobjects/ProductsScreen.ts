@@ -2,7 +2,8 @@ class ProductsScreen {
 
   get addToCartBtn() {
   if (driver.isAndroid) {
-    return $('android=new UiSelector().text("ADD TO CART").instance(0)')
+    return $('android=new UiSelector().resourceId("com.swaglabsmobileapp:id/addToCart")');
+
 
   }
   return $('~ADD TO CART'); 
