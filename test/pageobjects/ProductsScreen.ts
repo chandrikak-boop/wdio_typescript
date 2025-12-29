@@ -1,68 +1,33 @@
 class ProductsScreen {
 
   get addToCartBtn() {
-    if (driver.isAndroid) {
-      return $$('~test-ADD TO CART')[0];
-    }
-    return $$('~ADD TO CART')[0];
-  }
+  if (driver.isAndroid) {
+    return $('android=new UiSelector().text("Sauce Labs Backpack").fromParent(new UiSelector().description("test-ADD TO CART"))')
 
-  get cartIcon() {
-    if (driver.isAndroid) {
-      return $('~test-Cart');
-    }
-    return $('~test-Cart');
+
+
   }
+  return $('~ADD TO CART'); 
+  // or $('-ios predicate string:name == "ADD TO CART"');
+}
+
+get cartIcon() {
+  if (driver.isAndroid) {
+    return $('//android.view.ViewGroup[@content-desc="test-Cart"]/android.view.ViewGroup/android.widget.ImageView');
+  }
+  return $('~test-Cart');
+}
+
 
   async addItemToCart() {
-    await this.addToCartBtn.waitForDisplayed({ timeout: 15000 });
-    await this.addToCartBtn.click();
+    await this.addToCartBtn.waitForDisplayed({timeout:10000})
+    await this.addToCartBtn.click()
     await expect($('~test-REMOVE')).toBeDisplayed();
   }
 
   async openCart() {
-    await this.cartIcon.waitForDisplayed();
-    await this.cartIcon.click();
+    await this.cartIcon.click()
   }
 }
 
-export default new ProductsScreen();
-
-
-
-
-
-
-
-// class ProductsScreen {
-
-//   get addToCartBtn() {
-//   if (driver.isAndroid) {
-//     return $('android=new UiSelector().resourceId("com.swaglabsmobileapp:id/addToCart")');
-
-
-//   }
-//   return $('~ADD TO CART'); 
-//   // or $('-ios predicate string:name == "ADD TO CART"');
-// }
-
-// get cartIcon() {
-//   if (driver.isAndroid) {
-//     return $('//android.view.ViewGroup[@content-desc="test-Cart"]/android.view.ViewGroup/android.widget.ImageView');
-//   }
-//   return $('~test-Cart');
-// }
-
-
-//   async addItemToCart() {
-//     await this.addToCartBtn.waitForDisplayed({timeout:10000})
-//     await this.addToCartBtn.click()
-//     await expect($('~test-REMOVE')).toBeDisplayed();
-//   }
-
-//   async openCart() {
-//     await this.cartIcon.click()
-//   }
-// }
-
-// export default new ProductsScreen()
+export default new ProductsScreen()
