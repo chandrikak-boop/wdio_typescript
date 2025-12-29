@@ -11,29 +11,22 @@ class ProductsScreen {
     return $('~test-Cart')
   }
 
-  async addItemToCart() {
+async addItemToCart() {
 
-    // CI-safe scroll
-    await driver.execute('mobile: scroll', { direction: 'down' })
+  // Scroll UNTIL first Add To Cart is visible
+  await driver.execute('mobile: scroll', {
+    strategy: 'accessibility id',
+    selector: 'test-ADD TO CART'
+  })
 
-    const buttons = this.addToCartButtons
+  const addBtn = await $('//*[@content-desc[contains(., "test-ADD TO CART")]]')
 
-    await browser.waitUntil(
-      async () => (await buttons.length) > 0,
-      { timeout: 15000, timeoutMsg: 'No ADD TO CART buttons found' }
-    )
+  await addBtn.waitForDisplayed({ timeout: 15000 })
+  await addBtn.click()
 
-    const firstBtn = buttons[0]
-    await firstBtn.waitForDisplayed({ timeout: 10000 })
-    await firstBtn.click()
+  await expect($('//*[@content-desc[contains(., "test-REMOVE")]]')).toBeDisplayed()
+}
 
-    // Validate REMOVE appeared for first product
-    if (driver.isAndroid) {
-      await expect($('//*[@content-desc[contains(., "test-REMOVE")]]')).toBeDisplayed()
-    } else {
-      await expect($('~test-REMOVE')).toBeDisplayed()
-    }
-  }
 
   async openCart() {
     await this.cartIcon.waitForDisplayed({ timeout: 10000 })
