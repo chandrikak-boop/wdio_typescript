@@ -11,8 +11,8 @@ import {config} from '../config/wdio.conf.ts';
    
     config.capabilities= [{
   platformName: 'android',            // ✅ NO appium:
-  'appium:deviceName': 'Google Pixel 8 Pro',
-  'appium:platformVersion': '14.0',
+  'appium:deviceName': 'Google Pixel 9',
+  'appium:platformVersion': '16.0',
   'appium:automationName': 'UiAutomator2',
   'appium:app':'bs://275bbf382fad5ab513803cedde0393e4683d6c90',
   'appium:autoGrantPermissions': true
