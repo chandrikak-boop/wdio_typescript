@@ -17,8 +17,6 @@ import {config} from '../config/wdio.conf.ts';
   'appium:app':'bs://275bbf382fad5ab513803cedde0393e4683d6c90',
   'appium:autoGrantPermissions': true
 }]
-
-
        //
     // Test runner services
     // Services take over a specific job you don't want to take care of. They enhance

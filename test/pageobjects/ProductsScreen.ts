@@ -2,7 +2,7 @@ class ProductsScreen {
 
   get addToCartBtn() {
   if (driver.isAndroid) {
-    return $('(//android.widget.TextView[@text="ADD TO CART"])[1]')
+    return $('android=new UiSelector().text("ADD TO CART").instance(0)')
 
   }
   return $('~ADD TO CART'); 
