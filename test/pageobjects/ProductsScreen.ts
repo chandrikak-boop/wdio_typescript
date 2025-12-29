@@ -17,7 +17,7 @@ get cartIcon() {
 
 
   async addItemToCart() {
-    await this.addToCartBtn.waitForDisplayed()
+    await this.addToCartBtn.waitForDisplayed({timeout:10000})
     await this.addToCartBtn.click()
     await expect($('~test-REMOVE')).toBeDisplayed();
   }
