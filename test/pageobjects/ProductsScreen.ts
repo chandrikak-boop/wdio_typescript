@@ -2,20 +2,28 @@ class ProductsScreen {
 
   // ====== LOCATORS ======
 
-  get productsTitle() {
-    return $('~test-PRODUCTS');
-  }
-
-  // FIRST "ADD TO CART" button (generic & stable)
   get firstAddToCartBtn() {
+    if (driver.isAndroid) {
+      return $(
+        '//android.view.ViewGroup[contains(@content-desc,"ADD TO CART")]'
+      );
+    }
+
+    // iOS
     return $(
-      '//android.view.ViewGroup[contains(@content-desc,"ADD TO CART")]'
+      '//XCUIElementTypeButton[contains(@name,"ADD TO CART")]'
     );
   }
 
   get removeBtn() {
+    if (driver.isAndroid) {
+      return $(
+        '//android.view.ViewGroup[contains(@content-desc,"REMOVE")]'
+      );
+    }
+
     return $(
-      '//android.view.ViewGroup[contains(@content-desc,"REMOVE")]'
+      '//XCUIElementTypeButton[contains(@name,"REMOVE")]'
     );
   }
 
@@ -25,14 +33,9 @@ class ProductsScreen {
 
   // ====== ACTIONS ======
 
-  async waitForProductsScreen() {
-    await this.productsTitle.waitForDisplayed({ timeout: 20000 });
-  }
-
   async addFirstProductToCart() {
-    await this.waitForProductsScreen();
-
-    await this.firstAddToCartBtn.waitForDisplayed({ timeout: 15000 });
+    // Wait for products list via Add to Cart visibility
+    await this.firstAddToCartBtn.waitForDisplayed({ timeout: 20000 });
     await this.firstAddToCartBtn.click();
 
     // Validate item added
@@ -46,7 +49,6 @@ class ProductsScreen {
 }
 
 export default new ProductsScreen();
-
 
 
 /*class ProductsScreen {
