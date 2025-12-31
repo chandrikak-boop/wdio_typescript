@@ -6,13 +6,13 @@ import {config} from '../config/wdio.conf.ts';
  config.user=process.env.BROWSERSTACK_USER
  config.key=process.env.BROWSERSTACK_KEY
     config.specs = [
-            '../test/specs/swag_e2e.android.spec.ts'
+            '../test/specs/swag_e2e.spec.ts'
         ]
    
     config.capabilities= [{
   platformName: 'android',            // ✅ NO appium:
-  'appium:deviceName': 'Google Pixel 9',
-  'appium:platformVersion': '16.0',
+  'appium:deviceName': 'Samsung Galaxy S22 Ultra',
+  'appium:platformVersion': '12.0',
   'appium:automationName': 'UiAutomator2',
   'appium:app':'bs://275bbf382fad5ab513803cedde0393e4683d6c90',
   'appium:autoGrantPermissions': true
