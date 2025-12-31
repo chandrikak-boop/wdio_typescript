@@ -3,10 +3,10 @@ class ProductsScreen {
   get addToCartBtn() {
   if (driver.isAndroid) {
 return $('(//android.view.ViewGroup[@content-desc="test-ADD TO CART"])[1]');
-
-
   }
-  return $('~ADD TO CART'); 
+  else{
+  return $('~ADD TO CART');
+  } 
   // or $('-ios predicate string:name == "ADD TO CART"');
 }
 
@@ -14,7 +14,9 @@ get cartIcon() {
   if (driver.isAndroid) {
     return $('//android.view.ViewGroup[@content-desc="test-Cart"]/android.view.ViewGroup/android.widget.ImageView');
   }
+  else{
   return $('~test-Cart');
+  }
 }
 
 
