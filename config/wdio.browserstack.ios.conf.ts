@@ -1,33 +1,24 @@
-import {config} from './wdio.conf.ts';
-// ====================
-    // BrowserStack Configuration
-    // ====================
+import { config as base } from './wdio.conf'
 
- config.user=process.env.BROWSERSTACK_USER
- config.key=process.env.BROWSERSTACK_KEY
-    config.specs = [
-            '../test/specs/swag_e2e.spec.ts'
-        ]
-   
-    config.capabilities= [{
-  platformName: 'ios',           
-  'appium:deviceName': 'iPhone 14 Pro Max',
-  'appium:platformVersion': '16',
-  'appium:automationName': 'XCUITest',
-  'appium:app':'bs://b6ab26f95f322e4a8603aa4393177920f27e9e75',
-  'appium:autoGrantPermissions': true
-}]
+export const config = {
+  ...base,
 
+  user: process.env.BROWSERSTACK_USER,
+  key: process.env.BROWSERSTACK_KEY,
 
-       //
-    // Test runner services
-    // Services take over a specific job you don't want to take care of. They enhance
-    // your test setup with almost no effort. Unlike plugins, they don't add new
-    // commands. Instead, they hook themselves up into the test process.
-config.services = [
-  ['browserstack', {
-    observability: false
+  specs: ['../test/specs/**/*.ts'],
+
+  services: [
+    ['browserstack', { observability: false }]
+  ] as const,
+
+  capabilities: [{
+    platformName: 'iOS',
+    'appium:deviceName': 'iPhone 14 Pro',
+    'appium:platformVersion': '16',
+    'appium:automationName': 'XCUITest',
+
+    'appium:app': 'bs://<IOS_APP_ID>',
+    'appium:newCommandTimeout': 300
   }]
-]
-
-export { config };
+}
