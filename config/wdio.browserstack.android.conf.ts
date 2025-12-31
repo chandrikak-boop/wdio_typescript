@@ -6,7 +6,7 @@ import {config} from '../config/wdio.conf.ts';
  config.user=process.env.BROWSERSTACK_USER
  config.key=process.env.BROWSERSTACK_KEY
     config.specs = [
-            '../test/specs/swag_e2e.android.spec.spec.ts'
+            '../test/specs/swag_e2e.android.spec.ts'
         ]
    
     config.capabilities= [{
