@@ -1,50 +1,52 @@
-export class ProductsScreen {
+class ProductsScreen {
+
+  // ====== LOCATORS ======
 
   get productsTitle() {
     return $('~test-PRODUCTS');
   }
 
-  get addToCartButtons() {
-    return $$('~test-ADD TO CART');
+  // FIRST "ADD TO CART" button (generic & stable)
+  get firstAddToCartBtn() {
+    return $(
+      '//android.view.ViewGroup[contains(@content-desc,"ADD TO CART")]'
+    );
   }
+
+  get removeBtn() {
+    return $(
+      '//android.view.ViewGroup[contains(@content-desc,"REMOVE")]'
+    );
+  }
+
   get cartIcon() {
-  if (driver.isAndroid) {
-    return $('//android.view.ViewGroup[@content-desc="test-Cart"]/android.view.ViewGroup/android.widget.ImageView');
+    return $('~test-Cart');
   }
-  return $('~test-Cart');
-}
 
-  async addItemToCart() {
-    // 1️⃣ Ensure Products screen
+  // ====== ACTIONS ======
+
+  async waitForProductsScreen() {
     await this.productsTitle.waitForDisplayed({ timeout: 20000 });
+  }
 
-    // 2️⃣ Scroll until buttons appear (BrowserStack needs this)
-    await browser.waitUntil(async () => {
-      const count:any = (await this.addToCartButtons).length;
-      if (count === 0) {
-        await driver.execute('mobile: scroll', { direction: 'down' });
-      }
-      return count > 0;
-    }, {
-      timeout: 20000,
-      timeoutMsg: 'No ADD TO CART buttons found'
-    });
+  async addFirstProductToCart() {
+    await this.waitForProductsScreen();
 
-    // 3️⃣ Click first product
-    const firstBtn = this.addToCartButtons[0];
-    await firstBtn.waitForDisplayed();
-    await firstBtn.click();
+    await this.firstAddToCartBtn.waitForDisplayed({ timeout: 15000 });
+    await this.firstAddToCartBtn.click();
 
-    // 4️⃣ Assertion
-    await expect($('~test-REMOVE')).toBeDisplayed();
+    // Validate item added
+    await expect(this.removeBtn).toBeDisplayed();
   }
 
   async openCart() {
-    await this.cartIcon.click()
+    await this.cartIcon.waitForDisplayed({ timeout: 10000 });
+    await this.cartIcon.click();
   }
 }
 
 export default new ProductsScreen();
+
 
 
 /*class ProductsScreen {
