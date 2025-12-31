@@ -23,7 +23,7 @@ jobs:
         env:
           BROWSERSTACK_USER: ${{ secrets.BS_USER }}
           BROWSERSTACK_KEY: ${{ secrets.BS_KEY }}
-        run: nnpx wdio config/wdio.android.conf.ts --spec test/specs/swag_e2e.android.spec.ts 
+        run: nnpx wdio config/wdio.android.conf.ts
 
       - name: 📦 Upload Logs
         uses: actions/upload-artifact@v4
