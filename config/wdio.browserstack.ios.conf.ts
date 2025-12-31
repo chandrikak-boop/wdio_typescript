@@ -31,8 +31,12 @@ config.capabilities = [
 // Services
 // ====================
 // ⛔ NO observability key at all
-config.services = [
-  ['browserstack',{}]
-]
+config.services = [['browserstack', {
+    browserstackLocal: true,
+    opts: {
+        forcelocal: true
+    }
+}]]
+
 
 export { config }

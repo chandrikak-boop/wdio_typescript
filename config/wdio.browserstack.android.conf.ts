@@ -14,7 +14,13 @@ export const config = {
   specs: ['../test/specs/**/*.ts'],
 
   // 🚫 NO browserstack service for mobile
-  services: [],
+ services: [['browserstack', {
+    browserstackLocal: true,
+    opts: {
+        forcelocal: true
+    }
+}]],
+
 
   maxInstances: 1,
 
