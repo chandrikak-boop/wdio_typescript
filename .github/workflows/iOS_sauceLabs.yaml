@@ -1,5 +1,4 @@
-name: iOS Mobile Tests
-
+name: BrowserStack iOS E2E
 on: [workflow_dispatch]
 
 jobs:
