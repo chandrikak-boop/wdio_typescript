@@ -1,19 +1,22 @@
-name: Sauce Labs Android
+name: BrowserStack Android E2E
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
 
 jobs:
-  build:
+  android-tests:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22.12.0
+          node-version: 20
           cache: npm
 
       - name: Install dependencies
@@ -25,9 +28,12 @@ jobs:
           BROWSERSTACK_KEY: ${{ secrets.BS_KEY }}
         run: npx wdio config/wdio.browserstack.android.conf.ts
 
-      - name: 📦 Upload Logs
-        uses: actions/upload-artifact@v4
+      - name: 📦 Upload WDIO Logs
         if: failure()
+        uses: actions/upload-artifact@v4
         with:
-          name: logs
-          path: logs
+          name: wdio-logs
+          path: |
+            logs
+            wdio.log
+            errorShots
