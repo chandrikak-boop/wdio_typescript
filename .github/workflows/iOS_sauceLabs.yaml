@@ -1,0 +1,33 @@
+name: Sauce Labs iOS
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run WDIO iOS tests
+        env:
+          BROWSERSTACK_USER: ${{ secrets.BS_USER }}
+          BROWSERSTACK_KEY: ${{ secrets.BS_KEY }}
+        run: npx wdio config/wdio.browserstack.ios.conf.ts
+
+      - name: 📦 Upload Logs
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: ios-logs
+          path: logs

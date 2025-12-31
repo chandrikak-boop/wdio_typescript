@@ -49,5 +49,4 @@ class LoginScreen {
     await this.loginBtn.click();
   }
 }
-
 export default new LoginScreen();
