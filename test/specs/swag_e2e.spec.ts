@@ -13,7 +13,7 @@ describe('Swag Labs E2E', () => {
       `${process.env.PASSWORD}`
     )
 
-    await ProductsScreen.addFirstProductToCart()
+    await ProductsScreen.addItemToCart()
     await ProductsScreen.openCart()
 
     await CartScreen.proceedToCheckout()

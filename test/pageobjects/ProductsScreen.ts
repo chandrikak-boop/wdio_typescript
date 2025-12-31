@@ -1,4 +1,4 @@
-class ProductsScreen {
+/*class ProductsScreen {
 
   // ====== LOCATORS ======
 
@@ -50,8 +50,8 @@ class ProductsScreen {
 
 export default new ProductsScreen();
 
-
-/*class ProductsScreen {
+*/
+class ProductsScreen {
 
   get addToCartBtn() {
   if (driver.isAndroid) {
@@ -82,4 +82,4 @@ get cartIcon() {
   }
 }
 
-export default new ProductsScreen()*/
+export default new ProductsScreen()

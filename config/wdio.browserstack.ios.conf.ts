@@ -10,7 +10,7 @@ import {config} from './wdio.conf.ts';
         ]
    
     config.capabilities= [{
-  platformName: 'ios',            // ✅ NO appium:
+  platformName: 'ios',           
   'appium:deviceName': 'iPhone 14 Pro Max',
   'appium:platformVersion': '16',
   'appium:automationName': 'XCUITest',
