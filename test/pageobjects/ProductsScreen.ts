@@ -2,11 +2,7 @@ class ProductsScreen {
 
   get addToCartBtn() {
   if (driver.isAndroid) {
-return $(
-  `//android.widget.TextView[@text="Sauce Labs Backpack"]
-   /following-sibling::android.view.ViewGroup
-   //android.view.View[@content-desc="test-ADD TO CART"]`
-);
+return $('~test-ADD TO CART');
 
 
   }

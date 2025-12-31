@@ -47,6 +47,7 @@ class LoginScreen {
     await this.typeUsername(username);
     await this.typePassword(password);
     await this.loginBtn.click();
+    await driver.pause(2000)
   }
 }
 export default new LoginScreen();
