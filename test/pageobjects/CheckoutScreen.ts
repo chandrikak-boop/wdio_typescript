@@ -1,3 +1,5 @@
+import { driver, $ } from '@wdio/globals';
+
 class CheckoutScreen {
 
   get firstName() {
@@ -78,19 +80,19 @@ class CheckoutScreen {
 
 
 
-   async finishCheckout() {
+  //  async finishCheckout() {
 
-  if (driver.isAndroid) {
-    await $('android=new UiScrollable(new UiSelector().scrollable(true))' +
-            '.scrollTextIntoView("FINISH")');
-    await this.finishBtn.waitForDisplayed({ timeout: 10000 });
-  await this.finishBtn.click();
-  } else {
-    // iOS scrolling
-    await $('~FINISH').scrollIntoView();
-    await this.finishBtn.waitForDisplayed({ timeout: 10000 });
-  await this.finishBtn.click();
-  }
+  // if (driver.isAndroid) {
+  //   await $('android=new UiScrollable(new UiSelector().scrollable(true))' +
+  //           '.scrollTextIntoView("FINISH")');
+  //   await this.finishBtn.waitForDisplayed({ timeout: 10000 });
+  // await this.finishBtn.click();
+  // } else {
+  //   // iOS scrolling
+  //   await $('~FINISH').scrollIntoView();
+  //   await this.finishBtn.waitForDisplayed({ timeout: 10000 });
+  // await this.finishBtn.click();
+  // }
 
   
 
@@ -103,7 +105,30 @@ class CheckoutScreen {
 //       $('~THANK YOU FOR YOU ORDER')
 //     ).toBeDisplayed();
 //   }
+// }
+
+// }
+async finishCheckout() {
+
+  if (driver.isAndroid) {
+    await $('android=new UiScrollable(new UiSelector().scrollable(true))' +
+      '.scrollTextIntoView("FINISH")');
+
+    await this.finishBtn.waitForDisplayed({ timeout: 10000 });
+    await this.finishBtn.click();
+
+  } else {
+    // ✅ iOS SAFE SCROLL (BrowserStack compatible)
+    await driver.execute('mobile: swipe', { direction: 'up' });
+
+    // ✅ DO NOT use waitForDisplayed / isDisplayed
+    expect(await this.finishBtn.isExisting()).toBe(true);
+
+    await this.finishBtn.click();
+  }
 }
 
 }
+
+
 export default new CheckoutScreen()

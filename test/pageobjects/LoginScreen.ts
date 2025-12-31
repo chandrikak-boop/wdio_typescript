@@ -1,3 +1,5 @@
+import { driver, $ } from '@wdio/globals';
+
 class LoginScreen {
 
   get username() {

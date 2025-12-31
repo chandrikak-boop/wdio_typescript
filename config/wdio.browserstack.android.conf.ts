@@ -6,11 +6,17 @@ export const config = {
   user: process.env.BROWSERSTACK_USER,
   key: process.env.BROWSERSTACK_KEY,
 
+  protocol: 'https',
+  hostname: 'hub.browserstack.com',
+  port: 443,
+  path: '/wd/hub',
+
   specs: ['../test/specs/**/*.ts'],
 
-  services: [
-    ['browserstack', { observability: false }]
-  ] as const,
+  // 🚫 NO browserstack service for mobile
+  services: [],
+
+  maxInstances: 1,
 
   capabilities: [{
     platformName: 'Android',
@@ -18,7 +24,7 @@ export const config = {
     'appium:platformVersion': '14.0',
     'appium:automationName': 'UiAutomator2',
 
-    'appium:app': 'bs://<ANDROID_APP_ID>',
+    'appium:app': 'bs://275bbf382fad5ab513803cedde0393e4683d6c90',
     'appium:appWaitActivity': '*',
     'appium:appWaitDuration': 60000,
     'appium:newCommandTimeout': 300

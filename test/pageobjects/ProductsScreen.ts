@@ -1,3 +1,5 @@
+import { driver, $, expect } from '@wdio/globals';
+
 class ProductsScreen {
 
   get addToCartBtn() {

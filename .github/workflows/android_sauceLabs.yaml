@@ -1,23 +1,39 @@
-name: Android Mobile Tests
+name: BrowserStack Android E2E
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
 
 jobs:
-  android:
+  android-tests:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           cache: npm
 
-      - run: npm ci
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Run Android Tests
+      - name: Run WDIO Android tests
         env:
           BROWSERSTACK_USER: ${{ secrets.BS_USER }}
           BROWSERSTACK_KEY: ${{ secrets.BS_KEY }}
         run: npx wdio config/wdio.browserstack.android.conf.ts
+
+      - name: 📦 Upload WDIO Logs
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wdio-logs
+          path: |
+            logs
+            wdio.log
+            errorShots
