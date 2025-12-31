@@ -1,14 +1,15 @@
-export class ProductsScreenAndroid {
+class ProductsScreenAndroid {
 
   get firstAddToCartBtn() {
     return $(
-      '(//android.view.ViewGroup[contains(@content-desc,"ADD TO CART")])[1]'
+      'android=new UiScrollable(new UiSelector().scrollable(true))' +
+      '.scrollIntoView(new UiSelector().textContains("ADD TO CART"))'
     );
   }
 
   get removeBtn() {
     return $(
-      '//android.view.ViewGroup[contains(@content-desc,"REMOVE")]'
+      'android=new UiSelector().textContains("REMOVE")'
     );
   }
 
@@ -17,9 +18,9 @@ export class ProductsScreenAndroid {
   }
 
   async addFirstProductToCart() {
-    await this.firstAddToCartBtn.waitForDisplayed({ timeout: 25000 });
+    await this.firstAddToCartBtn.waitForDisplayed({ timeout: 30000 });
     await this.firstAddToCartBtn.click();
-    await expect(this.removeBtn).toBeDisplayed();
+    await this.removeBtn.waitForDisplayed({ timeout: 15000 });
   }
 
   async openCart() {

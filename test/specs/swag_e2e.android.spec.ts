@@ -1,5 +1,5 @@
 import LoginScreen from '../pageobjects/LoginScreen'
-import ProductsScreen from '../pageobjects/ProductsScreen'
+//import ProductsScreen from '../pageobjects/ProductsScreen'
 import CartScreen from '../pageobjects/CartScreen'
 import CheckoutScreen from '../pageobjects/CheckoutScreen'
 import userdata from '../../data/userdata.json'
