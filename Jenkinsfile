@@ -1,6 +1,10 @@
 pipeline {
   agent any
 
+  tools {
+    nodejs 'node18'
+  }
+
   stages {
     stage('Checkout') {
       steps {
@@ -18,12 +22,6 @@ pipeline {
       steps {
         sh 'npx wdio config/wdio.android.conf.ts'
       }
-    }
-  }
-
-  post {
-    always {
-      archiveArtifacts artifacts: '**/logs/**', allowEmptyArchive: true
     }
   }
 }
