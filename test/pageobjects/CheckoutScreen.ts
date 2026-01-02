@@ -23,6 +23,7 @@ class CheckoutScreen {
   }
 
   async fillDetails(firstName :string,lastName:string,zipCode:string) {
+    await this.firstName.waitForDisplayed()
     await this.typeFirstName(firstName)
     await this.typeLastName(lastName)
     await this.typeZipCode(zipCode)

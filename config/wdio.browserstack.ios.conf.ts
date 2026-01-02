@@ -32,6 +32,10 @@ config.capabilities = [
 // ====================
 // ⛔ NO observability key at all
 config.services = [['browserstack', {
+  testObservability: false,
+    testObservabilityOptions: {
+      junitReportsPath: './reports/junit/*.xml'
+    },
     browserstackLocal: true,
     opts: {
         forcelocal: true

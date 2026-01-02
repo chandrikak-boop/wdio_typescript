@@ -124,7 +124,11 @@ capabilities : [
       outputDir: 'allure-results',
       disableWebdriverStepsReporting: true,
       disableWebdriverScreenshotsReporting: false
-    }]
+    }],
+    ['junit', {
+    outputDir: './reports/junit',
+    outputFileFormat: () => `results-${Date.now()}.xml`
+  }]
   ],
 
     // Options to be passed to Mocha.
