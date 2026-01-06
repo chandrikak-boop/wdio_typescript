@@ -9,8 +9,8 @@ pipeline {
     ANDROID_HOME = "/Users/testvagranttechnologies/Library/Android/sdk"
     ANDROID_SDK_ROOT = "/Users/testvagranttechnologies/Library/Android/sdk"
     PATH = "${env.ANDROID_HOME}/emulator:${env.ANDROID_HOME}/platform-tools:${env.PATH}"
-    USER_NAME = credentials('USERNAME')
-    PASSWORD = credentials('PASSWORD')
+    USER_NAME = credentials('SL_USERNAME')
+    PASSWORD = credentials('SL_PASSWORD')
   }
 
   stages {
