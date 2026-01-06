@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="0" skipped="0">
+  <testsuite name="Swag Labs E2E" timestamp="2026-01-06T17:10:04" time="57.391" tests="1" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Swag Labs E2E"/>
+      <property name="capabilities" value="ios.iphone16"/>
+      <property name="file" value="file://./test/specs/swag_e2e.spec.ts"/>
+    </properties>
+    <testcase classname="ios.iphone16.Swag_Labs_E2E" name="products shopping" time="57.388">
+      <failure message="Element not found within scroll limit of 10 scrolls by scrolling &quot;up&quot;. Are you sure the element is within the scrollable element or the direction is correct? You can change the scrollable element or direction like this:&#xA;&#xA;await elem.scrollIntoView({&#xA;    direction: 'left' // possible options are: 'up|down|left|right'&#xA;    scrollableElement: $('#scrollable'),&#xA;});&#xA;&#xA;        "/>
+      <system-out><![CDATA[
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/displayed - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/clear - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/value - {"text":"s"}
+RESULT: {"text":"s"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/value - {"text":"t"}
+RESULT: {"text":"t"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/value - {"text":"a"}
+RESULT: {"text":"a"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/value - {"text":"n"}
+RESULT: {"text":"n"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/value - {"text":"d"}
+RESULT: {"text":"d"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/value - {"text":"a"}
+RESULT: {"text":"a"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/value - {"text":"r"}
+RESULT: {"text":"r"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/value - {"text":"d"}
+RESULT: {"text":"d"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/value - {"text":"_"}
+RESULT: {"text":"_"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/value - {"text":"u"}
+RESULT: {"text":"u"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/value - {"text":"s"}
+RESULT: {"text":"s"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/value - {"text":"e"}
+RESULT: {"text":"e"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/49000000-0000-0000-9713-010000000000/value - {"text":"r"}
+RESULT: {"text":"r"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/4A000000-0000-0000-9713-010000000000/displayed - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/4A000000-0000-0000-9713-010000000000/clear - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/4A000000-0000-0000-9713-010000000000/value - {"text":"s"}
+RESULT: {"text":"s"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/4A000000-0000-0000-9713-010000000000/value - {"text":"e"}
+RESULT: {"text":"e"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/4A000000-0000-0000-9713-010000000000/value - {"text":"c"}
+RESULT: {"text":"c"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/4A000000-0000-0000-9713-010000000000/value - {"text":"r"}
+RESULT: {"text":"r"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/4A000000-0000-0000-9713-010000000000/value - {"text":"e"}
+RESULT: {"text":"e"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/4A000000-0000-0000-9713-010000000000/value - {"text":"t"}
+RESULT: {"text":"t"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/4A000000-0000-0000-9713-010000000000/value - {"text":"_"}
+RESULT: {"text":"_"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/4A000000-0000-0000-9713-010000000000/value - {"text":"s"}
+RESULT: {"text":"s"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/4A000000-0000-0000-9713-010000000000/value - {"text":"a"}
+RESULT: {"text":"a"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/4A000000-0000-0000-9713-010000000000/value - {"text":"u"}
+RESULT: {"text":"u"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/4A000000-0000-0000-9713-010000000000/value - {"text":"c"}
+RESULT: {"text":"c"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/4A000000-0000-0000-9713-010000000000/value - {"text":"e"}
+RESULT: {"text":"e"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-LOGIN"}
+RESULT: {"using":"accessibility id","value":"test-LOGIN"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/3F000000-0000-0000-9713-010000000000/click - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-ADD TO CART"}
+RESULT: {"using":"accessibility id","value":"test-ADD TO CART"}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/03010000-0000-0000-9713-010000000000/displayed - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-ADD TO CART"}
+RESULT: {"using":"accessibility id","value":"test-ADD TO CART"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/03010000-0000-0000-9713-010000000000/click - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-REMOVE"}
+RESULT: {"using":"accessibility id","value":"test-REMOVE"}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/03010000-0000-0000-9713-010000000000/displayed - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Cart"}
+RESULT: {"using":"accessibility id","value":"test-Cart"}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/A0000000-0000-0000-9713-010000000000/rect - {}
+RESULT: {}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/A0000000-0000-0000-9713-010000000000/rect - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/execute/sync - {"script":"<script> [19 bytes]","args":[{"x":355,"y":50}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"x":355,"y":50}]}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Cart"}
+RESULT: {"using":"accessibility id","value":"test-Cart"}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/A0000000-0000-0000-9713-010000000000/displayed - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-Cart"}
+RESULT: {"using":"accessibility id","value":"test-Cart"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/A0000000-0000-0000-9713-010000000000/click - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-CHECKOUT"}
+RESULT: {"using":"accessibility id","value":"test-CHECKOUT"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-CHECKOUT"}
+RESULT: {"using":"accessibility id","value":"test-CHECKOUT"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/elements - {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+RESULT: {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/01000000-0000-0000-9713-010000000000/rect - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {"actions":[{"id":"pointer1","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+RESULT: {"actions":[{"id":"pointer1","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+COMMAND: DELETE /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-CHECKOUT"}
+RESULT: {"using":"accessibility id","value":"test-CHECKOUT"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/elements - {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+RESULT: {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/01000000-0000-0000-9713-010000000000/rect - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {"actions":[{"id":"pointer2","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+RESULT: {"actions":[{"id":"pointer2","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+COMMAND: DELETE /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-CHECKOUT"}
+RESULT: {"using":"accessibility id","value":"test-CHECKOUT"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/elements - {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+RESULT: {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/01000000-0000-0000-9713-010000000000/rect - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {"actions":[{"id":"pointer3","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+RESULT: {"actions":[{"id":"pointer3","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+COMMAND: DELETE /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-CHECKOUT"}
+RESULT: {"using":"accessibility id","value":"test-CHECKOUT"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/elements - {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+RESULT: {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/01000000-0000-0000-9713-010000000000/rect - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {"actions":[{"id":"pointer4","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+RESULT: {"actions":[{"id":"pointer4","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+COMMAND: DELETE /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-CHECKOUT"}
+RESULT: {"using":"accessibility id","value":"test-CHECKOUT"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/elements - {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+RESULT: {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/01000000-0000-0000-9713-010000000000/rect - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {"actions":[{"id":"pointer5","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+RESULT: {"actions":[{"id":"pointer5","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+COMMAND: DELETE /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-CHECKOUT"}
+RESULT: {"using":"accessibility id","value":"test-CHECKOUT"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/elements - {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+RESULT: {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/01000000-0000-0000-9713-010000000000/rect - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {"actions":[{"id":"pointer6","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+RESULT: {"actions":[{"id":"pointer6","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+COMMAND: DELETE /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-CHECKOUT"}
+RESULT: {"using":"accessibility id","value":"test-CHECKOUT"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/elements - {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+RESULT: {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/01000000-0000-0000-9713-010000000000/rect - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {"actions":[{"id":"pointer7","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+RESULT: {"actions":[{"id":"pointer7","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+COMMAND: DELETE /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-CHECKOUT"}
+RESULT: {"using":"accessibility id","value":"test-CHECKOUT"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/elements - {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+RESULT: {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/01000000-0000-0000-9713-010000000000/rect - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {"actions":[{"id":"pointer8","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+RESULT: {"actions":[{"id":"pointer8","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+COMMAND: DELETE /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-CHECKOUT"}
+RESULT: {"using":"accessibility id","value":"test-CHECKOUT"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/elements - {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+RESULT: {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/01000000-0000-0000-9713-010000000000/rect - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {"actions":[{"id":"pointer9","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+RESULT: {"actions":[{"id":"pointer9","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+COMMAND: DELETE /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element - {"using":"accessibility id","value":"test-CHECKOUT"}
+RESULT: {"using":"accessibility id","value":"test-CHECKOUT"}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/elements - {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+RESULT: {"using":"-ios predicate string","value":"type == \"XCUIElementTypeApplication\""}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/element/01000000-0000-0000-9713-010000000000/rect - {}
+RESULT: {}
+COMMAND: POST /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {"actions":[{"id":"pointer10","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+RESULT: {"actions":[{"id":"pointer10","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","button":0,"x":195,"y":823,"duration":100,"origin":"viewport"},{"type":"pointerDown","button":0},{"type":"pause","duration":10},{"type":"pointerMove","button":0,"x":195,"y":21,"duration":1500,"origin":"viewport"},{"type":"pointerUp","button":0}]}]}
+COMMAND: DELETE /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/actions - {}
+RESULT: {}
+COMMAND: GET /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/41a69a1b-19c1-4ea3-a8d4-56294cfa0cca - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Element not found within scroll limit of 10 scrolls by scrolling "up". Are you sure the element is within the scrollable element or the direction is correct? You can change the scrollable element or direction like this:
+
+await elem.scrollIntoView({
+    direction: 'left' // possible options are: 'up|down|left|right'
+    scrollableElement: $('#scrollable'),
+});
+
+        
+    at async CartScreen.proceedToCheckout (/Users/testvagranttechnologies/Desktop/Projects/wdio_typescript/test/pageobjects/CartScreen.ts:36:7)
+    at async Context.<anonymous> (/Users/testvagranttechnologies/Desktop/Projects/wdio_typescript/test/specs/swag_e2e.spec.ts:19:5)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

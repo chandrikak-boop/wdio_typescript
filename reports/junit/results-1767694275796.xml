@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="0" skipped="0">
+  <testsuite name="Swag Labs E2E" timestamp="2026-01-06T15:41:41" time="23.894" tests="1" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Swag Labs E2E"/>
+      <property name="capabilities" value="ios.iphone16"/>
+      <property name="file" value="file://./test/specs/swag_e2e.spec.ts"/>
+    </properties>
+    <testcase classname="ios.iphone16.Swag_Labs_E2E" name="products shopping" time="23.89">
+      <failure message="Can't call &quot;getRect&quot; on element with selector &quot;~test-Cart&quot;, it is not a function"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: GET /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/displayed - {}
+RESULT: {}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/clear - {}
+RESULT: {}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/value - {"text":"s"}
+RESULT: {"text":"s"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/value - {"text":"t"}
+RESULT: {"text":"t"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/value - {"text":"a"}
+RESULT: {"text":"a"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/value - {"text":"n"}
+RESULT: {"text":"n"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/value - {"text":"d"}
+RESULT: {"text":"d"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/value - {"text":"a"}
+RESULT: {"text":"a"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/value - {"text":"r"}
+RESULT: {"text":"r"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/value - {"text":"d"}
+RESULT: {"text":"d"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/value - {"text":"_"}
+RESULT: {"text":"_"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/value - {"text":"u"}
+RESULT: {"text":"u"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/value - {"text":"s"}
+RESULT: {"text":"s"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/value - {"text":"e"}
+RESULT: {"text":"e"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/49000000-0000-0000-A1DE-000000000000/value - {"text":"r"}
+RESULT: {"text":"r"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: GET /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/4A000000-0000-0000-A1DE-000000000000/displayed - {}
+RESULT: {}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/4A000000-0000-0000-A1DE-000000000000/clear - {}
+RESULT: {}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/4A000000-0000-0000-A1DE-000000000000/value - {"text":"s"}
+RESULT: {"text":"s"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/4A000000-0000-0000-A1DE-000000000000/value - {"text":"e"}
+RESULT: {"text":"e"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/4A000000-0000-0000-A1DE-000000000000/value - {"text":"c"}
+RESULT: {"text":"c"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/4A000000-0000-0000-A1DE-000000000000/value - {"text":"r"}
+RESULT: {"text":"r"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/4A000000-0000-0000-A1DE-000000000000/value - {"text":"e"}
+RESULT: {"text":"e"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/4A000000-0000-0000-A1DE-000000000000/value - {"text":"t"}
+RESULT: {"text":"t"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/4A000000-0000-0000-A1DE-000000000000/value - {"text":"_"}
+RESULT: {"text":"_"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/4A000000-0000-0000-A1DE-000000000000/value - {"text":"s"}
+RESULT: {"text":"s"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/4A000000-0000-0000-A1DE-000000000000/value - {"text":"a"}
+RESULT: {"text":"a"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/4A000000-0000-0000-A1DE-000000000000/value - {"text":"u"}
+RESULT: {"text":"u"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/4A000000-0000-0000-A1DE-000000000000/value - {"text":"c"}
+RESULT: {"text":"c"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/4A000000-0000-0000-A1DE-000000000000/value - {"text":"e"}
+RESULT: {"text":"e"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-LOGIN"}
+RESULT: {"using":"accessibility id","value":"test-LOGIN"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/3F000000-0000-0000-A1DE-000000000000/click - {}
+RESULT: {}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-ADD TO CART"}
+RESULT: {"using":"accessibility id","value":"test-ADD TO CART"}
+COMMAND: GET /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/06010000-0000-0000-A1DE-000000000000/displayed - {}
+RESULT: {}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-ADD TO CART"}
+RESULT: {"using":"accessibility id","value":"test-ADD TO CART"}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/06010000-0000-0000-A1DE-000000000000/click - {}
+RESULT: {}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-REMOVE"}
+RESULT: {"using":"accessibility id","value":"test-REMOVE"}
+COMMAND: GET /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/06010000-0000-0000-A1DE-000000000000/displayed - {}
+RESULT: {}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Cart"}
+RESULT: {"using":"accessibility id","value":"test-Cart"}
+COMMAND: GET /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element/A3000000-0000-0000-A1DE-000000000000/displayed - {}
+RESULT: {}
+COMMAND: POST /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/element - {"using":"accessibility id","value":"test-Cart"}
+RESULT: {"using":"accessibility id","value":"test-Cart"}
+COMMAND: GET /session/4826de50-4cb2-4858-a70b-8c812fc8e7df/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/4826de50-4cb2-4858-a70b-8c812fc8e7df - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Can't call "getRect" on element with selector "~test-Cart", it is not a function
+    at async ProductsScreen.addItemToCart (/Users/testvagranttechnologies/Desktop/Projects/wdio_typescript/test/pageobjects/ProductsScreen.ts:61:39)
+    at async Context.<anonymous> (/Users/testvagranttechnologies/Desktop/Projects/wdio_typescript/test/specs/swag_e2e.spec.ts:16:5)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
