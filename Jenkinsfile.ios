@@ -1,0 +1,71 @@
+pipeline {
+    agent any
+    stages {
+        stage('Checkout SCM') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Setup Node & Install Dependencies') {
+            steps {
+                sh '''
+                # Load NVM
+                export NVM_DIR="$HOME/.nvm"
+                [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+                # Install & use NodeJS v20.19.0
+                nvm install 20.19.0
+                nvm use 20.19.0
+
+                # Verify Node & npm
+                node -v
+                npm -v
+
+                # Install project dependencies
+                npm install
+                '''
+            }
+        }
+
+        stage('Verify Xcode') {
+            steps {
+                sh '''
+                # Add any Xcode verification commands if needed
+                xcodebuild -version
+                '''
+            }
+        }
+
+        environment {
+          USER_NAME = credentials('SL_USERNAME')
+          PASSWORD = credentials('SL_PASSWORD')
+        }
+
+        stage('Run WDIO iOS Tests') {
+            steps {
+                sh '''
+                # Make sure Node & npm are available in this shell too
+                export NVM_DIR="$HOME/.nvm"
+                [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+                nvm use 20.19.0
+
+                # Run your WDIO tests
+                npx wdio config/wdio.ios.conf.js
+                '''
+            }
+        }
+    }
+
+   post {
+    always {
+        junit 'reports/junit/*.xml'
+        archiveArtifacts artifacts: '**/screenshots/*.png', allowEmptyArchive: true
+    }
+
+    failure {
+        echo 'iOS tests failed!'
+    }
+}
+
+}
