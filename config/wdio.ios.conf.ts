@@ -8,8 +8,8 @@ import {config} from '../config/wdio.conf.ts';
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     config.capabilities = [{ // capabilities for local Appium web tests on an iOS Emulator
         'appium:platformName': "ios",
-        'appium:deviceName': "iPhone 14",
-        'appium:platformVersion': "16.0",
+        'appium:deviceName': "iPhone 16",
+        'appium:platformVersion': "26.2",
         'appium:automationName': 'XCUITest',
         'appium:app': "app/iOS/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app",
         'appium:noReset': false,
