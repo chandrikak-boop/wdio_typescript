@@ -1,5 +1,11 @@
 pipeline {
     agent any
+
+    environment {
+        USER_NAME = credentials('SL_USERNAME')
+        PASSWORD  = credentials('SL_PASSWORD')
+    }
+
     stages {
         stage('Checkout SCM') {
             steps {
@@ -14,7 +20,7 @@ pipeline {
                 export NVM_DIR="$HOME/.nvm"
                 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
-                # Install & use NodeJS v20.19.0
+                # Install & use NodeJS
                 nvm install 20.19.0
                 nvm use 20.19.0
 
@@ -22,7 +28,7 @@ pipeline {
                 node -v
                 npm -v
 
-                # Install project dependencies
+                # Install dependencies
                 npm install
                 '''
             }
@@ -31,41 +37,34 @@ pipeline {
         stage('Verify Xcode') {
             steps {
                 sh '''
-                # Add any Xcode verification commands if needed
                 xcodebuild -version
                 '''
             }
         }
 
-        environment {
-          USER_NAME = credentials('SL_USERNAME')
-          PASSWORD = credentials('SL_PASSWORD')
-        }
-
         stage('Run WDIO iOS Tests') {
             steps {
                 sh '''
-                # Make sure Node & npm are available in this shell too
+                # Load NVM again (new shell)
                 export NVM_DIR="$HOME/.nvm"
                 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
                 nvm use 20.19.0
 
-                # Run your WDIO tests
+                # Run WDIO tests
                 npx wdio config/wdio.ios.conf.js
                 '''
             }
         }
     }
 
-   post {
-    always {
-        junit 'reports/junit/*.xml'
-        archiveArtifacts artifacts: '**/screenshots/*.png', allowEmptyArchive: true
-    }
+    post {
+        always {
+            junit 'reports/junit/*.xml'
+            archiveArtifacts artifacts: '**/screenshots/*.png', allowEmptyArchive: true
+        }
 
-    failure {
-        echo 'iOS tests failed!'
+        failure {
+            echo 'iOS tests failed!'
+        }
     }
-}
-
 }
