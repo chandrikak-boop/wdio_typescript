@@ -12,7 +12,7 @@ import {config} from '../config/wdio.conf.ts';
   'appium:deviceName': 'iPhone 14',
   'appium:platformVersion': '16.0',
   'appium:udid': '2167BBA3-88FD-4ECB-BE11-524536EB951F',
-  'appium:app': '/absolute/path/to/app.app',
+  'appium:app': 'app/iOS/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app',
   'appium:noReset': true,
   'appium:newCommandTimeout': 300
 }],
