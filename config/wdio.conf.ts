@@ -235,7 +235,9 @@ capabilities : [
      */
   afterTest: async function (test, context, { passed }) {
     if (!passed) {
-      await browser.takeScreenshot()
+      //await browser.takeScreenshot()
+      await browser.saveScreenshot(`./screenshots/${test.title}.png`);
+
     }
      if (driver.isIOS) {
     await driver.terminateApp('com.saucelabs.SwagLabsMobileApp');
