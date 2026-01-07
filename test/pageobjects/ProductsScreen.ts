@@ -27,6 +27,9 @@ class ProductsScreen {
     }
 
     await this.cartIcon.waitForDisplayed({ timeout: 30000 });
+    if (driver.isIOS) {
+      await driver.pause(500);
+    }
     await this.cartIcon.click()
     if (driver.isIOS) {
       await driver.pause(500);
