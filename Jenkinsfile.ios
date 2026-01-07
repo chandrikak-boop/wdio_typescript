@@ -58,10 +58,7 @@ pipeline {
 
             // Archive screenshots only if present
             archiveArtifacts artifacts: '**/screenshots/*.png',
-                             allowEmptyArchive: true
-
-            // Clean up simulators (important for CI stability)
-            sh 'xcrun simctl shutdown all || true'
+                             allowEmptyArchive: true            
         }
 
         failure {
