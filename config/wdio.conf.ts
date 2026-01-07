@@ -137,6 +137,7 @@ capabilities : [
         ui: 'bdd',
         timeout: 180000
     },
+   
 
     //
     // =====
@@ -236,6 +237,11 @@ capabilities : [
     if (!passed) {
       await browser.takeScreenshot()
     }
+     if (driver.isIOS) {
+    await driver.terminateApp('com.saucelabs.SwagLabsMobileApp');
+  } else {
+    await driver.terminateApp('com.swaglabsmobileapp');
+  }
   }
 
 
