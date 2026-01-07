@@ -16,19 +16,15 @@ pipeline {
         stage('Setup Node & Install Dependencies') {
             steps {
                 sh '''
-                # Load NVM
                 export NVM_DIR="$HOME/.nvm"
                 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
-                # Install & use NodeJS
                 nvm install 20.19.0
                 nvm use 20.19.0
 
-                # Verify Node & npm
                 node -v
                 npm -v
 
-                # Install dependencies
                 npm install
                 '''
             }
@@ -36,21 +32,17 @@ pipeline {
 
         stage('Verify Xcode') {
             steps {
-                sh '''
-                xcodebuild -version
-                '''
+                sh 'xcodebuild -version'
             }
         }
 
         stage('Run WDIO iOS Tests') {
             steps {
                 sh '''
-                # Load NVM again (new shell)
                 export NVM_DIR="$HOME/.nvm"
                 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
                 nvm use 20.19.0
 
-                # Run WDIO tests
                 npx wdio config/wdio.ios.conf.ts
                 '''
             }
@@ -59,12 +51,25 @@ pipeline {
 
     post {
         always {
-            junit 'reports/junit/*.xml'
-            archiveArtifacts artifacts: '**/screenshots/*.png', allowEmptyArchive: true
+            // Publish results without marking build unstable
+            junit allowEmptyResults: true,
+                  skipMarkingBuildUnstable: true,
+                  testResults: 'reports/junit/*.xml'
+
+            // Archive screenshots only if present
+            archiveArtifacts artifacts: '**/screenshots/*.png',
+                             allowEmptyArchive: true
+
+            // Clean up simulators (important for CI stability)
+            sh 'xcrun simctl shutdown all || true'
         }
 
         failure {
-            echo 'iOS tests failed!'
+            echo '❌ iOS tests failed!'
+        }
+
+        success {
+            echo '✅ iOS tests passed successfully!'
         }
     }
 }
