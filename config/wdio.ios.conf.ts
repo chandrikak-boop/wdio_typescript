@@ -27,6 +27,7 @@ import {config} from '../config/wdio.conf.ts';
     command: 'appium',
     args: {
       port: 4723,
+      basePath: '/',
       relaxedSecurity: true,
       sessionOverride: true
     }
