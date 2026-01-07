@@ -15,10 +15,7 @@ import {config} from '../config/wdio.conf.ts';
   'appium:app': '/absolute/path/to/app.app',
   'appium:noReset': true,
   'appium:newCommandTimeout': 300
-}]
-,
-
-]
+}],
        //
     // Test runner services
     // Services take over a specific job you don't want to take care of. They enhance
