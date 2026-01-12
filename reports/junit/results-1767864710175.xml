@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="0" skipped="0">
+  <testsuite name="Swag Labs E2E" timestamp="2026-01-08T15:02:02" time="37.785" tests="1" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Swag Labs E2E"/>
+      <property name="capabilities" value="android.emulator-5554"/>
+      <property name="file" value="file://./test/specs/webview_context_switch.spec.ts"/>
+    </properties>
+    <testcase classname="android.emulator-5554.Swag_Labs_E2E" name="switch contexts and interact with web page" time="37.635">
+      <failure message="waitUntil condition timed out after 20000ms"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: GET /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-078c-ffff-ffff0000002b/displayed - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-078c-ffff-ffff0000002b/clear - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-078c-ffff-ffff0000002b/clear - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-078c-ffff-ffff0000002b/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: GET /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-078c-ffff-ffff0000002e/displayed - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-078c-ffff-ffff0000002e/clear - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-078c-ffff-ffff0000002e/clear - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-078c-ffff-ffff0000002e/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"accessibility id","value":"test-LOGIN"}
+RESULT: {"using":"accessibility id","value":"test-LOGIN"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-078c-ffff-ffff0000002f/click - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"accessibility id","value":"test-Menu"}
+RESULT: {"using":"accessibility id","value":"test-Menu"}
+COMMAND: GET /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-078c-ffff-ffff0000004d/displayed - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-078c-ffff-ffff0000004d/click - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: GET /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-078c-ffff-ffff0000001c/displayed - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-078c-ffff-ffff0000001c/click - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+COMMAND: GET /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-0782-0000-07470000010d/displayed - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element/00000000-0000-0782-0000-07470000010d/click - {}
+RESULT: {}
+COMMAND: GET /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/contexts - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/context - {"name":"WEBVIEW_chrome"}
+RESULT: {"name":"WEBVIEW_chrome"}
+COMMAND: GET /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/url - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/element - {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/appium/device/terminate_app - {"appId":"com.swaglabsmobileapp"}
+RESULT: {"using":"css selector","value":"a[href*=\"sign-up\"], button[href*=\"sign-up\"]"}
+RESULT: {"appId":"com.swaglabsmobileapp"}
+COMMAND: GET /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/context - {"name":"NATIVE_APP"}
+RESULT: {"name":"NATIVE_APP"}
+COMMAND: POST /session/0dea5eb6-5131-4004-94eb-fcf001f5093d/appium/device/terminate_app - {"appId":"com.swaglabsmobileapp"}
+RESULT: {"appId":"com.swaglabsmobileapp"}
+COMMAND: DELETE /session/0dea5eb6-5131-4004-94eb-fcf001f5093d - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: waitUntil condition timed out after 20000ms
+    at async Context.<anonymous> (/Users/testvagranttechnologies/Desktop/Projects/wdio_typescript/test/specs/webview_context_switch.spec.ts:124:5)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

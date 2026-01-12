@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="0" skipped="0">
+  <testsuite name="Swag Labs E2E" timestamp="2026-01-12T12:09:23" time="36.133" tests="1" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Swag Labs E2E"/>
+      <property name="capabilities" value="ios.iphone14"/>
+      <property name="file" value="file://./test/specs/webview_context_switch.spec.ts"/>
+    </properties>
+    <testcase classname="ios.iphone14.Swag_Labs_E2E" name="switch contexts and interact with web page" time="36.116">
+      <failure message="element (&quot;//android.view.ViewGroup[@content-desc=&quot;test-Menu&quot;]/android.view.ViewGroup/android.widget.ImageView&quot;) still not displayed after 10000ms"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: GET /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/displayed - {}
+RESULT: {}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/clear - {}
+RESULT: {}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/value - {"text":"s"}
+RESULT: {"text":"s"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/value - {"text":"t"}
+RESULT: {"text":"t"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/value - {"text":"a"}
+RESULT: {"text":"a"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/value - {"text":"n"}
+RESULT: {"text":"n"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/value - {"text":"d"}
+RESULT: {"text":"d"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/value - {"text":"a"}
+RESULT: {"text":"a"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/value - {"text":"r"}
+RESULT: {"text":"r"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/value - {"text":"d"}
+RESULT: {"text":"d"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/value - {"text":"_"}
+RESULT: {"text":"_"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/value - {"text":"u"}
+RESULT: {"text":"u"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/value - {"text":"s"}
+RESULT: {"text":"s"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/value - {"text":"e"}
+RESULT: {"text":"e"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/47000000-0000-0000-0A47-000000000000/value - {"text":"r"}
+RESULT: {"text":"r"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: GET /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/48000000-0000-0000-0A47-000000000000/displayed - {}
+RESULT: {}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/48000000-0000-0000-0A47-000000000000/clear - {}
+RESULT: {}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/48000000-0000-0000-0A47-000000000000/value - {"text":"s"}
+RESULT: {"text":"s"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/48000000-0000-0000-0A47-000000000000/value - {"text":"e"}
+RESULT: {"text":"e"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/48000000-0000-0000-0A47-000000000000/value - {"text":"c"}
+RESULT: {"text":"c"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/48000000-0000-0000-0A47-000000000000/value - {"text":"r"}
+RESULT: {"text":"r"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/48000000-0000-0000-0A47-000000000000/value - {"text":"e"}
+RESULT: {"text":"e"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/48000000-0000-0000-0A47-000000000000/value - {"text":"t"}
+RESULT: {"text":"t"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/48000000-0000-0000-0A47-000000000000/value - {"text":"_"}
+RESULT: {"text":"_"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/48000000-0000-0000-0A47-000000000000/value - {"text":"s"}
+RESULT: {"text":"s"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/48000000-0000-0000-0A47-000000000000/value - {"text":"a"}
+RESULT: {"text":"a"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/48000000-0000-0000-0A47-000000000000/value - {"text":"u"}
+RESULT: {"text":"u"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/48000000-0000-0000-0A47-000000000000/value - {"text":"c"}
+RESULT: {"text":"c"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/48000000-0000-0000-0A47-000000000000/value - {"text":"e"}
+RESULT: {"text":"e"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"accessibility id","value":"test-LOGIN"}
+RESULT: {"using":"accessibility id","value":"test-LOGIN"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element/3D000000-0000-0000-0A47-000000000000/click - {}
+RESULT: {}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/appium/device/terminate_app - {"appId":"com.saucelabs.SwagLabsMobileApp"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"appId":"com.saucelabs.SwagLabsMobileApp"}
+COMMAND: GET /session/abcff777-af5c-4055-b5cc-94fd997bd408/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/abcff777-af5c-4055-b5cc-94fd997bd408/appium/device/terminate_app - {"appId":"com.swaglabsmobileapp"}
+RESULT: {"appId":"com.swaglabsmobileapp"}
+COMMAND: DELETE /session/abcff777-af5c-4055-b5cc-94fd997bd408 - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: element ("//android.view.ViewGroup[@content-desc="test-Menu"]/android.view.ViewGroup/android.widget.ImageView") still not displayed after 10000ms
+    at async Context.<anonymous> (/Users/testvagranttechnologies/Desktop/Projects/wdio_typescript/test/specs/webview_context_switch.spec.ts:15:5)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

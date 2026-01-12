@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="0" skipped="0">
+  <testsuite name="Swag Labs E2E" timestamp="2026-01-08T14:33:00" time="35.925" tests="1" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Swag Labs E2E"/>
+      <property name="capabilities" value="android.emulator-5554"/>
+      <property name="file" value="file://./test/specs/webview_context_switch.spec.ts"/>
+    </properties>
+    <testcase classname="android.emulator-5554.Swag_Labs_E2E" name="switch contexts and interact with web page" time="35.834">
+      <failure message="element (&quot;//span[contains(text(),'Sign up with email')]&quot;) still not clickable after 15000ms"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: GET /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element/00000000-0000-06a1-ffff-ffff0000002b/displayed - {}
+RESULT: {}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element/00000000-0000-06a1-ffff-ffff0000002b/clear - {}
+RESULT: {}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element/00000000-0000-06a1-ffff-ffff0000002b/clear - {}
+RESULT: {}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element/00000000-0000-06a1-ffff-ffff0000002b/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: GET /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element/00000000-0000-06a1-ffff-ffff0000002e/displayed - {}
+RESULT: {}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element/00000000-0000-06a1-ffff-ffff0000002e/clear - {}
+RESULT: {}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element/00000000-0000-06a1-ffff-ffff0000002e/clear - {}
+RESULT: {}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element/00000000-0000-06a1-ffff-ffff0000002e/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"accessibility id","value":"test-LOGIN"}
+RESULT: {"using":"accessibility id","value":"test-LOGIN"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element/00000000-0000-06a1-ffff-ffff0000002f/click - {}
+RESULT: {}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: GET /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element/00000000-0000-06a1-ffff-ffff0000004f/displayed - {}
+RESULT: {}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element/00000000-0000-06a1-ffff-ffff0000004f/click - {}
+RESULT: {}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/elements - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element/00000000-0000-06a1-ffff-ffff0000001c/click - {}
+RESULT: {}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+COMMAND: GET /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element/00000000-0000-069f-0000-721e00000dec/displayed - {}
+RESULT: {}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element/00000000-0000-069f-0000-721e00000dec/click - {}
+RESULT: {}
+COMMAND: GET /session/64da4de5-5d0d-47f1-85d9-6025577fa574/contexts - {}
+RESULT: {}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/context - {"name":"WEBVIEW_chrome"}
+RESULT: {"name":"WEBVIEW_chrome"}
+COMMAND: GET /session/64da4de5-5d0d-47f1-85d9-6025577fa574/url - {}
+RESULT: {}
+COMMAND: GET /session/64da4de5-5d0d-47f1-85d9-6025577fa574/url - {}
+RESULT: {}
+COMMAND: GET /session/64da4de5-5d0d-47f1-85d9-6025577fa574/context - {}
+RESULT: {}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/element - {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/appium/device/terminate_app - {"appId":"com.swaglabsmobileapp"}
+RESULT: {"appId":"com.swaglabsmobileapp"}
+COMMAND: GET /session/64da4de5-5d0d-47f1-85d9-6025577fa574/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/64da4de5-5d0d-47f1-85d9-6025577fa574/appium/device/terminate_app - {"appId":"com.swaglabsmobileapp"}
+RESULT: {"appId":"com.swaglabsmobileapp"}
+COMMAND: DELETE /session/64da4de5-5d0d-47f1-85d9-6025577fa574 - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: element ("//span[contains(text(),'Sign up with email')]") still not clickable after 15000ms
+    at async Context.<anonymous> (/Users/testvagranttechnologies/Desktop/Projects/wdio_typescript/test/specs/webview_context_switch.spec.ts:51:5)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

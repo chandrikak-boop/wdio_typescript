@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="0" skipped="0">
+  <testsuite name="Swag Labs E2E" timestamp="2026-01-08T12:12:16" time="22.499" tests="1" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Swag Labs E2E"/>
+      <property name="capabilities" value="android.emulator-5554"/>
+      <property name="file" value="file://./test/specs/webview_context_switch.spec.ts"/>
+    </properties>
+    <testcase classname="android.emulator-5554.Swag_Labs_E2E" name="products shopping" time="22.493">
+      <failure message="We parsed a total of 11 Webviews but did not find a matching context. The reasons are:&#xA;- Webview 1: 'NATIVE_APP'&#xA;  - Skipped context because it is NATIVE_APP&#xA;- Webview 2: 'WEBVIEW_chrome'&#xA;  - URL 'https://saucelabs.com/sign-up' did not match: 'https://signup.saucelabs.com/'&#xA;  - Additional Android checks failed&#xA;- Webview 3: 'WEBVIEW_chrome'&#xA;  - URL 'https://saucelabs.com/sign-up' did not match: 'https://saucelabs.com/'&#xA;  - Additional Android checks failed&#xA;- Webview 4: 'WEBVIEW_chrome'&#xA;  - Additional Android checks failed&#xA;- Webview 5: 'WEBVIEW_chrome'&#xA;  - URL 'https://saucelabs.com/sign-up' did not match: 'https://saucelabs.com/'&#xA;  - Additional Android checks failed&#xA;- Webview 6: 'WEBVIEW_chrome'&#xA;  - Additional Android checks failed&#xA;- Webview 7: 'WEBVIEW_chrome'&#xA;  - URL 'https://saucelabs.com/sign-up' did not match: 'https://saucelabs.com/'&#xA;  - Additional Android checks failed&#xA;- Webview 8: 'WEBVIEW_chrome'&#xA;  - URL 'https://saucelabs.com/sign-up' did not match: 'https://saucelabs.com/'&#xA;  - Additional Android checks failed&#xA;- Webview 9: 'WEBVIEW_chrome'&#xA;  - URL 'https://saucelabs.com/sign-up' did not match: 'https://saucelabs.com/'&#xA;  - Additional Android checks failed&#xA;- Webview 10: 'WEBVIEW_chrome'&#xA;  - URL 'https://saucelabs.com/sign-up' did not match: 'https://saucelabs.com/'&#xA;  - Additional Android checks failed&#xA;- Webview 11: 'WEBVIEW_chrome'&#xA;  - URL 'https://saucelabs.com/sign-up' did not match: 'https://www.googletagmanager.com/static/service_worker/6150/sw.js?origin=https%3A%2F%2Fsaucelabs.com'&#xA;  - Additional Android checks failed"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: GET /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element/00000000-0000-0545-ffff-ffff0000002b/displayed - {}
+RESULT: {}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element/00000000-0000-0545-ffff-ffff0000002b/clear - {}
+RESULT: {}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element/00000000-0000-0545-ffff-ffff0000002b/clear - {}
+RESULT: {}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element/00000000-0000-0545-ffff-ffff0000002b/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: GET /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element/00000000-0000-0545-ffff-ffff0000002e/displayed - {}
+RESULT: {}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element/00000000-0000-0545-ffff-ffff0000002e/clear - {}
+RESULT: {}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element/00000000-0000-0545-ffff-ffff0000002e/clear - {}
+RESULT: {}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element/00000000-0000-0545-ffff-ffff0000002e/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-LOGIN"}
+RESULT: {"using":"accessibility id","value":"test-LOGIN"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element/00000000-0000-0545-ffff-ffff0000002f/click - {}
+RESULT: {}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: GET /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element/00000000-0000-0545-ffff-ffff0000004f/displayed - {}
+RESULT: {}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element/00000000-0000-0545-ffff-ffff0000004f/click - {}
+RESULT: {}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/elements - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element/00000000-0000-0545-ffff-ffff0000001c/click - {}
+RESULT: {}
+COMMAND: GET /session/96af2794-9b12-4420-9e25-bec54ef7b83b/contexts - {}
+RESULT: {}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+COMMAND: GET /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element/00000000-0000-0540-0000-19ac000001d2/displayed - {}
+RESULT: {}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element - {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/element/00000000-0000-0540-0000-19ac000001d2/click - {}
+RESULT: {}
+COMMAND: GET /session/96af2794-9b12-4420-9e25-bec54ef7b83b/contexts - {}
+RESULT: {}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: GET /session/96af2794-9b12-4420-9e25-bec54ef7b83b/appium/device/current_package - {}
+RESULT: {}
+COMMAND: GET /session/96af2794-9b12-4420-9e25-bec54ef7b83b/appium/device/current_package - {}
+RESULT: {}
+COMMAND: GET /session/96af2794-9b12-4420-9e25-bec54ef7b83b/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/96af2794-9b12-4420-9e25-bec54ef7b83b/appium/device/terminate_app - {"appId":"com.swaglabsmobileapp"}
+RESULT: {"appId":"com.swaglabsmobileapp"}
+COMMAND: DELETE /session/96af2794-9b12-4420-9e25-bec54ef7b83b - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: We parsed a total of 11 Webviews but did not find a matching context. The reasons are:
+- Webview 1: 'NATIVE_APP'
+  - Skipped context because it is NATIVE_APP
+- Webview 2: 'WEBVIEW_chrome'
+  - URL 'https://saucelabs.com/sign-up' did not match: 'https://signup.saucelabs.com/'
+  - Additional Android checks failed
+- Webview 3: 'WEBVIEW_chrome'
+  - URL 'https://saucelabs.com/sign-up' did not match: 'https://saucelabs.com/'
+  - Additional Android checks failed
+- Webview 4: 'WEBVIEW_chrome'
+  - Additional Android checks failed
+- Webview 5: 'WEBVIEW_chrome'
+  - URL 'https://saucelabs.com/sign-up' did not match: 'https://saucelabs.com/'
+  - Additional Android checks failed
+- Webview 6: 'WEBVIEW_chrome'
+  - Additional Android checks failed
+- Webview 7: 'WEBVIEW_chrome'
+  - URL 'https://saucelabs.com/sign-up' did not match: 'https://saucelabs.com/'
+  - Additional Android checks failed
+- Webview 8: 'WEBVIEW_chrome'
+  - URL 'https://saucelabs.com/sign-up' did not match: 'https://saucelabs.com/'
+  - Additional Android checks failed
+- Webview 9: 'WEBVIEW_chrome'
+  - URL 'https://saucelabs.com/sign-up' did not match: 'https://saucelabs.com/'
+  - Additional Android checks failed
+- Webview 10: 'WEBVIEW_chrome'
+  - URL 'https://saucelabs.com/sign-up' did not match: 'https://saucelabs.com/'
+  - Additional Android checks failed
+- Webview 11: 'WEBVIEW_chrome'
+  - URL 'https://saucelabs.com/sign-up' did not match: 'https://www.googletagmanager.com/static/service_worker/6150/sw.js?origin=https%3A%2F%2Fsaucelabs.com'
+  - Additional Android checks failed
+    at async Context.<anonymous> (/Users/testvagranttechnologies/Desktop/Projects/wdio_typescript/test/specs/webview_context_switch.spec.ts:21:9)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

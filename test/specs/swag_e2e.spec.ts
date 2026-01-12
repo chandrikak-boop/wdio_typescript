@@ -14,8 +14,6 @@ describe('Swag Labs E2E', () => {
     )
 
     await ProductsScreen.addItemToCart()
-   //await ProductsScreen.openCart()
-
     await CartScreen.proceedToCheckout()
 
     await CheckoutScreen.fillDetails(userdata.firstName,userdata.lastName,userdata.zipCode)

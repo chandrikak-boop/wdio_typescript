@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Swag Labs E2E" timestamp="2026-01-08T12:45:42" time="21.682" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Swag Labs E2E"/>
+      <property name="capabilities" value="android.emulator-5554"/>
+      <property name="file" value="file://./test/specs/webview_context_switch.spec.ts"/>
+    </properties>
+    <testcase classname="android.emulator-5554.Swag_Labs_E2E" name="switch contexts and interact with web page" time="21.677">
+      <system-out><![CDATA[
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: GET /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element/00000000-0000-05cd-ffff-ffff0000002b/displayed - {}
+RESULT: {}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element/00000000-0000-05cd-ffff-ffff0000002b/clear - {}
+RESULT: {}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element/00000000-0000-05cd-ffff-ffff0000002b/clear - {}
+RESULT: {}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element/00000000-0000-05cd-ffff-ffff0000002b/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: GET /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element/00000000-0000-05cd-ffff-ffff0000002e/displayed - {}
+RESULT: {}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element/00000000-0000-05cd-ffff-ffff0000002e/clear - {}
+RESULT: {}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element/00000000-0000-05cd-ffff-ffff0000002e/clear - {}
+RESULT: {}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element/00000000-0000-05cd-ffff-ffff0000002e/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-LOGIN"}
+RESULT: {"using":"accessibility id","value":"test-LOGIN"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element/00000000-0000-05cd-ffff-ffff0000002f/click - {}
+RESULT: {}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: GET /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element/00000000-0000-05cd-ffff-ffff0000004f/displayed - {}
+RESULT: {}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element/00000000-0000-05cd-ffff-ffff0000004f/click - {}
+RESULT: {}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/elements - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element/00000000-0000-05cd-ffff-ffff0000001c/click - {}
+RESULT: {}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element - {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+COMMAND: GET /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element/00000000-0000-05c7-0000-3b01000004fa/displayed - {}
+RESULT: {}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/element/00000000-0000-05c7-0000-3b01000004fa/click - {}
+RESULT: {}
+COMMAND: GET /session/cc007e03-a761-4bb9-8edd-9501e1785a85/contexts - {}
+RESULT: {}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/context - {"name":"WEBVIEW_chrome"}
+RESULT: {"name":"WEBVIEW_chrome"}
+COMMAND: GET /session/cc007e03-a761-4bb9-8edd-9501e1785a85/url - {}
+RESULT: {}
+COMMAND: GET /session/cc007e03-a761-4bb9-8edd-9501e1785a85/url - {}
+RESULT: {}
+COMMAND: GET /session/cc007e03-a761-4bb9-8edd-9501e1785a85/context - {}
+RESULT: {}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/context - {"name":"NATIVE_APP"}
+RESULT: {"name":"NATIVE_APP"}
+COMMAND: GET /session/cc007e03-a761-4bb9-8edd-9501e1785a85/context - {}
+RESULT: {}
+COMMAND: POST /session/cc007e03-a761-4bb9-8edd-9501e1785a85/appium/device/terminate_app - {"appId":"com.swaglabsmobileapp"}
+RESULT: {"appId":"com.swaglabsmobileapp"}
+COMMAND: DELETE /session/cc007e03-a761-4bb9-8edd-9501e1785a85 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

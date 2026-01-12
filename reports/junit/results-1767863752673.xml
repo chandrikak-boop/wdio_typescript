@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Swag Labs E2E" timestamp="2026-01-08T14:45:59" time="22.647" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Swag Labs E2E"/>
+      <property name="capabilities" value="android.emulator-5554"/>
+      <property name="file" value="file://./test/specs/webview_context_switch.spec.ts"/>
+    </properties>
+    <testcase classname="android.emulator-5554.Swag_Labs_E2E" name="switch contexts and interact with web page" time="22.644">
+      <system-out><![CDATA[
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/00000000-0000-06fc-ffff-ffff0000002b/displayed - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/00000000-0000-06fc-ffff-ffff0000002b/clear - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"accessibility id","value":"test-Username"}
+RESULT: {"using":"accessibility id","value":"test-Username"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/00000000-0000-06fc-ffff-ffff0000002b/clear - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/00000000-0000-06fc-ffff-ffff0000002b/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/00000000-0000-06fc-ffff-ffff0000002e/displayed - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/00000000-0000-06fc-ffff-ffff0000002e/clear - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"accessibility id","value":"test-Password"}
+RESULT: {"using":"accessibility id","value":"test-Password"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/00000000-0000-06fc-ffff-ffff0000002e/clear - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/00000000-0000-06fc-ffff-ffff0000002e/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"accessibility id","value":"test-LOGIN"}
+RESULT: {"using":"accessibility id","value":"test-LOGIN"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/00000000-0000-06fc-ffff-ffff0000002f/click - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"test-Menu\"]/android.view.ViewGroup/android.widget.ImageView"}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/00000000-0000-06fc-ffff-ffff0000004f/displayed - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/00000000-0000-06fc-ffff-ffff0000004f/click - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/elements - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"accessibility id","value":"test-ABOUT"}
+RESULT: {"using":"accessibility id","value":"test-ABOUT"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/00000000-0000-06fc-ffff-ffff0000001c/click - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"Sign up for free\"]"}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/00000000-0000-06fe-0000-009b00000057/displayed - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/00000000-0000-06fe-0000-009b00000057/click - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/contexts - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/context - {"name":"WEBVIEW_chrome"}
+RESULT: {"name":"WEBVIEW_chrome"}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/url - {}
+RESULT: {}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/context - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element - {"using":"xpath","value":"//*[contains(text(),'Sign up with email')]"}
+RESULT: {"using":"xpath","value":"//*[contains(text(),'Sign up with email')]"}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.7288839BD02215086C1EDE147D50B673.d.53EA8DE16BC4ACF55377731983F1500B.e.78","ELEMENT":"f.7288839BD02215086C1EDE147D50B673.d.53EA8DE16BC4ACF55377731983F1500B.e.78"}]}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.7288839BD02215086C1EDE147D50B673.d.53EA8DE16BC4ACF55377731983F1500B.e.78","ELEMENT":"f.7288839BD02215086C1EDE147D50B673.d.53EA8DE16BC4ACF55377731983F1500B.e.78"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.7288839BD02215086C1EDE147D50B673.d.53EA8DE16BC4ACF55377731983F1500B.e.78","ELEMENT":"f.7288839BD02215086C1EDE147D50B673.d.53EA8DE16BC4ACF55377731983F1500B.e.78"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.7288839BD02215086C1EDE147D50B673.d.53EA8DE16BC4ACF55377731983F1500B.e.78","ELEMENT":"f.7288839BD02215086C1EDE147D50B673.d.53EA8DE16BC4ACF55377731983F1500B.e.78"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.7288839BD02215086C1EDE147D50B673.d.53EA8DE16BC4ACF55377731983F1500B.e.78","ELEMENT":"f.7288839BD02215086C1EDE147D50B673.d.53EA8DE16BC4ACF55377731983F1500B.e.78"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.7288839BD02215086C1EDE147D50B673.d.53EA8DE16BC4ACF55377731983F1500B.e.78","ELEMENT":"f.7288839BD02215086C1EDE147D50B673.d.53EA8DE16BC4ACF55377731983F1500B.e.78"}]}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/element/f.7288839BD02215086C1EDE147D50B673.d.53EA8DE16BC4ACF55377731983F1500B.e.78/click - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/context - {"name":"NATIVE_APP"}
+RESULT: {"name":"NATIVE_APP"}
+COMMAND: GET /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/context - {}
+RESULT: {}
+COMMAND: POST /session/372d4de9-3036-4f86-a1e7-0c32c0372f98/appium/device/terminate_app - {"appId":"com.swaglabsmobileapp"}
+RESULT: {"appId":"com.swaglabsmobileapp"}
+COMMAND: DELETE /session/372d4de9-3036-4f86-a1e7-0c32c0372f98 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

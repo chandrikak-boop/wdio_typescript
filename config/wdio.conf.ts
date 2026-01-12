@@ -24,7 +24,8 @@ export const config: WebdriverIO.Config = {
     // of the config file unless it's absolute.
     //
     specs: [
-        '../test/specs/swag_e2e.spec.ts'
+       // '../test/specs/swag_e2e.spec.ts'
+       '../test/specs/swag_e2e.spec.ts'
     ],
     // Patterns to exclude.
     exclude: [
@@ -234,17 +235,18 @@ capabilities : [
      * @param {object}  result.retries   information about spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
   afterTest: async function (test, context, { passed }) {
+    if (driver.isIOS) {
+    await driver.terminateApp('com.saucelabs.SwagLabsMobileApp');
+  } else {
+    await driver.terminateApp('com.swaglabsmobileapp');
+  }
     if (!passed) {
       //await browser.takeScreenshot()
       await browser.saveScreenshot(`./screenshots/${test.title}.png`);
 
     }
-     if (driver.isIOS) {
-    await driver.terminateApp('com.saucelabs.SwagLabsMobileApp');
-  } else {
-    await driver.terminateApp('com.swaglabsmobileapp');
-  }
-  }
+  },
+     
 
 
     /**
